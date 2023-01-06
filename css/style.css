@@ -186,6 +186,7 @@
 .about-container p {
   color: #ffffff;
   margin-top: 25px;
+  font-size: 14px;
 }
 .footer .subscribe-container {
   width: 50%;
@@ -197,4 +198,34 @@
 .footer .social-links li {
   margin-right: 20px;
   margin-top: 35px;
+}
+.footer .subscribe-container {
+  margin-left: 150px;
+}
+.footer .subscribe-container form {
+  width: 100%;
+}
+.footer .subscribe-container label {
+  color: #ffffff;
+  display: block;
+  font-size: 25px;
+  margin: 15px 0;
+}
+.footer .subscribe-container .email-input {
+  display: block;
+  padding: 15px;
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  outline: none;
+  border-radius: 7px;
+  width: 90%;
+  margin: 20px 0;
+}
+.footer .subscribe-container .subscribe-btn {
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 7px;
+  color: #f15b22;
 }
