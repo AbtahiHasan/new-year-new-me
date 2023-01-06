@@ -135,3 +135,34 @@
   padding: 15px 20px;
   border-radius: 7px;
 }
+/* our blog  */
+.our-blog {
+  margin: 50px 180px;
+}
+.our-blog h2 {
+  text-align: center;
+}
+.our-blog .blogs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.our-blog .blogs .blog {
+  width: 33%;
+  margin: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.our-blog .blogs .blog img {
+  width: 100%;
+  height: 250px;
+}
+.our-blog .blogs .blog .blog-title {
+  text-align: left;
+  margin: 5px 0;
+  padding: 8px;
+}
+.our-blog .blogs .blog .description {
+  padding: 8px;
+}
