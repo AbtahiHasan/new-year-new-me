@@ -141,6 +141,7 @@
 }
 .our-blog h2 {
   text-align: center;
+  font-size: 45px;
 }
 .our-blog .blogs {
   display: flex;
